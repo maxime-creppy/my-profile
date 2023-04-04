@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Delicious+Handrawn&family=Lobster&family=Lora:wght@400;500;600&family=Oswald:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@100;300;400;500&family=Staatliches&display=swap');
+</style>
+body  {
+    color: #101538;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+
+} 
+.banner{
+    background-image: url(images/uno.jpg);
+}
+
+h1, h2{
+    letter-spacing: 0px;
+} 
+
+h1 {
+    color: #044965;
+    font-size: 32px;
+    font-family: 'Alkatra',cursive;
+}
+
+h2 {
+    color: #19376D;
+    font-size: 27px;
+    font-family: 'lobster';
+    font-weight: 500;
+}
+
+
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+
+}
+
+
+
+
+.card-white {
+    background-color: #fffef8;
+    padding: 50px;
+    border: 1px solid #044965;
+    border-radius: 5px; 
+    box-shadow: 0px  10px 30px rgba(0,0,0,1);
+    text-align: center;
+    margin: 20px;
+}
+.card-white p {
+    color: #2B2C2F;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    width: 100px;
+}
+.list-inline  {
+    list-style: none ;
+    padding-left: 0px;
+
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+    color: blue;
+
+}
+   
+
+.btn-blue{
+    text-decoration: none;
+    background-color:#0e7ba8;
+    
+    padding: 5px;
+    border-radius: 50px;
+    color: white;
+}
+.btn-blue:hover{
+  background-color:white;
+  color:#0e7ba8;
+  border-color: white;
+}
+@media (max-width:960px){
+    .container{
+        width:700px;
+    }
+
+@media (max-width:720px){
+    .container{
+        width: 700px;
+        
+    }
+}
+@media (max-width:540px){
+    .container{
+        width: 300px;
+    }
+}
